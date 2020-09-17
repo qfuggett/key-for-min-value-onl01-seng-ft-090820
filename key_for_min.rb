@@ -3,7 +3,9 @@
 
 def key_for_min_value(name_hash)
   new_array = [ ]
-  name_hash.collect do |individual_key, key_value|
+  min_value = 0
+  
+  name_hash.each do |individual_key, key_value|
     key_value
     
   end
