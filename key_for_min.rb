@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     min_value = nil
     if new_array[1] < new_array[2] && new_array[1] < new_array[3]
       min_key = new_array[1]
-      return min_key[1]
+      return individual_key
     end
   end
   
